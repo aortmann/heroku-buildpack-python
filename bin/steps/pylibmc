@@ -15,7 +15,7 @@ if [[ "$STACK" != "cedar-14" ]]; then
 fi
 
 # The location of the pre-compiled libmemcached binary.
-VENDORED_MEMCACHED="${VENDOR_URL}/libraries/vendor/libmemcache.tar.gz"
+VENDORED_MEMCACHED="https://launchpad.net/libmemcached/1.0/1.0.18/+download/libmemcached-1.0.18.tar.gz"
 
 # Syntax sugar.
 # shellcheck source=bin/utils
